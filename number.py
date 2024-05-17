@@ -52,6 +52,6 @@ class UNumber(Number):
         else:
             self._num = n
 n = UNumber(25)
-n.num = -13
+n.num = 13
 print(n)
 print(n2 + n)
